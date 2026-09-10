@@ -1,0 +1,22 @@
+Box Run: 1 to 5
+
+Click Start game, then click inside the game canvas so it receives your keyboard input.
+
+Move the blue player with either:
+- the arrow keys, or
+- W, A, S and D
+
+Your goal is to move the player entirely inside each numbered box in order.
+
+Box 2 will not score until you have completed box 1. Completed boxes turn green and the next box is highlighted in yellow.
+
+The timer starts when you click the button and stops when you complete box 5.
+
+Things to notice in the code
+
+- Player is a pygame.sprite.Sprite with its own image and rectangle.
+- pygame.Rect.contains checks that the whole player is inside a target.
+- game_state controls whether the start screen, game or result is shown.
+- pygame.time.get_ticks() is used to measure the finishing time.
+
+Try changing PLAYER_SPEED, the colours, or the number and size of the boxes.
