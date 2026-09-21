@@ -1,22 +1,10 @@
-Box Run: 1 to 5
+Quiz
 
-Click Start game, then click inside the game canvas so it receives your keyboard input.
-
-Move the blue player with either:
-- the arrow keys, or
-- W, A, S and D
-
-Your goal is to move the player entirely inside each numbered box in order.
-
-Box 2 will not score until you have completed box 1. Completed boxes turn green and the next box is highlighted in yellow.
-
-The timer starts when you click the button and stops when you complete box 5.
-
-Things to notice in the code
-
-- Player is a pygame.sprite.Sprite with its own image and rectangle.
-- pygame.Rect.contains checks that the whole player is inside a target.
-- game_state controls whether the start screen, game or result is shown.
-- pygame.time.get_ticks() is used to measure the finishing time.
-
-Try changing PLAYER_SPEED, the colours, or the number and size of the boxes.
+Level 1:
+1. Add more questions to the quiz (could be more questions of the same type, multiple choice questions or true/false questions).
+2. Change the scoring of your quiz (harder questions could be worth more points and you could take away points for incorrect responses).
+3. At the end of the questions, display a different message depending on the score (for example, if the score is greater than or equal to 5, then display a well done message, or if the score is 0, then display a different message).
+4. Make the quiz non-case sensitive (so for the first question should accept incorrectly and Incorrectly).
+	
+Level 2:
+Write a quiz game from scratch! (for example, you could do a maths quiz, which randomly generates questions)
