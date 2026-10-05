@@ -1,11 +1,21 @@
 #! markdown
 # Story
 
-## Level 1
 
-Extend the story with more setences and more variables.
+## Task 1
 
+Extend the story with more sentences and variables
 
-## Level 2
+## Task 2
 
-Add some validation to the numbers that the user inputs. 
+Add more choices using if/elif/else statements
+
+## Task 3
+
+Add a score varaible that changes depending on the options the user chooses and output the score at the end
+
+## Extensions
+
+- Add some validation to the numbers that are entered (instead of crashing when a non-number is entered, keep asking for a number until one is entered)
+- Incorporate the random module into your story
+- Incorporate the time module into your story
