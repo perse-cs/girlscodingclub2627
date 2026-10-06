@@ -16,6 +16,6 @@ Add a score varaible that changes depending on the options the user chooses and 
 
 ## Extensions
 
-- Add some validation to the numbers that are entered (instead of crashing when a non-number is entered, keep asking for a number until one is entered)
 - Incorporate the random module into your story
 - Incorporate the time module into your story
+- Add some validation to the numbers that are entered (instead of crashing when a non-number is entered, keep asking for a number until one is entered)
