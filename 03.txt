@@ -1,0 +1,29 @@
+#! markdown
+# Monster Game
+
+## Task 1
+
+Change the starting treasure and monsters to your choice.
+
+## Task 2
+
+Add a line within the if and elif statements to update the player's score by an amount of your choice.
+
+## Task 3
+
+Remove the monster that has been fought from the monsters list using the syntax below.
+
+```
+my_list.remove(my_item)
+```
+
+## Task 4
+
+Display the treasure list and the player's score at the end of the game.
+
+
+
+## Extensions
+
+- Extend the game with more choices. For example, you could ask the user if they would like to look under a rock or in a bush and give them different treasures depending on their choice.
+- Use a loop to add more monster encounters. You could have different rewards for different monsters.
