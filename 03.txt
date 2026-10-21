@@ -3,7 +3,7 @@
 
 ## Task 1
 
-Change the starting treasure and monsters to your choice.
+Change the starting treasures and monsters to your choice.
 
 ## Task 2
 
@@ -22,8 +22,11 @@ my_list.remove(my_item)
 Display the treasure list and the player's score at the end of the game.
 
 
-
 ## Extensions
 
 - Extend the game with more choices. For example, you could ask the user if they would like to look under a rock or in a bush and give them different treasures depending on their choice.
+- Use the random module to add variation to the monster encounters. For example, add health scores for the player and the monster and subtract a random amount from each until one of them dies. To generate a random integer between two numbers use the syntax below. 
+```
+random.randint(number1, number2)
+```
 - Use a loop to add more monster encounters. You could have different rewards for different monsters.
