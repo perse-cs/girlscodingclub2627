@@ -1,5 +1,5 @@
 #! markdown
-# Monster Game
+# Monster Quest
 
 ## Task 1
 
@@ -24,7 +24,7 @@ Display the treasure list and the player's score at the end of the game.
 
 ## Extensions
 
-- Extend the game with more choices. For example, you could ask the user if they would like to look under a rock or in a bush and give them different treasures depending on their choice.
+- Extend the game with more choices. For example, you could ask the user if they would like to look under a rock or in a bush and give them a different treasure depending on their choice.
 - Use the random module to add variation to the monster encounters. For example, add health scores for the player and the monster and subtract a random amount from each until one of them dies. To generate a random integer between two numbers use the syntax below. 
 ```
 random.randint(number1, number2)

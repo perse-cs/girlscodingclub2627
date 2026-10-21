@@ -30,6 +30,8 @@ score = 0
 
 if choice == "F":
     print(f"You bravely face the {monster}!")
+    # TASK 3
+    
     print("You win a treasure for your bravery.")
     treasure.append("Monster gem")
     # TASK 2
