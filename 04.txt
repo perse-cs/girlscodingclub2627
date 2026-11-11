@@ -1,0 +1,21 @@
+#! markdown
+# Number Guessing Game
+
+## Level 1:
+
+Fill in the missing lines of code indicated by ==>
+
+## Level 2:
+
+Write a program from scratch where the computer is the one guessing the number and the user is the one providing higher or lower feedback
+Use this algorithm to help you:
+
+```
+store the lowest and highest possible numbers
+
+calculate the middle number
+
+based on the user's feedback, update either the lowest possible number or the highest possible number
+
+repeat the last 2 lines until the user says the number is correct
+```
