@@ -1,0 +1,5 @@
+# MAKE YOUR OWN QUIZ GAME
+#
+# Pick a topic you like (football, Minecraft, animals, music...).
+# Follow the steps in order and type your code under each one.
+# Run the file after every step to check it works.
